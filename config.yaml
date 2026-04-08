@@ -1,0 +1,12 @@
+DATA_INGESTION:
+  - name: "data_ingestion"
+    type: "ingestion"
+    bucket: "mlflow"
+    source: "housing.csv"
+    destination: "data/raw"
+    file_name: "house.csv"
+    parameters:
+    format: "csv"
+    delimiter: ","
+    header: true
+
