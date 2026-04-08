@@ -1,0 +1,8 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = s3://dvc
+    endpointurl = http://localhost:9000
+    access_key_id = OL6BlzIMEcnUpwZbSTmh
+    secret_access_key = YAPvVyB1QJ4DETIrK6fedO7ni39qmMFaZh52k0N8
+    use_ssl = false
